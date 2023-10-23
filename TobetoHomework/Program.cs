@@ -9,7 +9,6 @@ decimal number6 = 10;
 var number7 = 10;
 number7 = 'A';
 
-
 Console.WriteLine("Number1 is {0}", number1);
 Console.WriteLine("Number2 is {0}", number2);
 Console.WriteLine("Number3 is {0}", number3);
