@@ -2,14 +2,14 @@
 
 //ForLoop();
 //WhileLoop();
+//DoWhileLoop()
 
-int number = 10;
-do
+string[] students = new string[3] {"Engin","Ahmet","Derin"};
+
+foreach (var student in students)
 {
-    Console.WriteLine(number);
-    number--;
+    Console.WriteLine(student);
 }
-while (number >= 0);
 
 Console.ReadLine();
 
@@ -31,4 +31,15 @@ static void WhileLoop()
         number--;
     }
     Console.WriteLine("Now number {0}", number);
+}
+
+static void DoWhileLoop()
+{
+    int number = 10;
+    do
+    {
+        Console.WriteLine(number);
+        number--;
+    }
+    while (number >= 0);
 }
