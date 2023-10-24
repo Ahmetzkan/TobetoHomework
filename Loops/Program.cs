@@ -1,13 +1,15 @@
 ﻿using System.Runtime.CompilerServices;
 
 //ForLoop();
-int number = 100;
-while (number>=0)
+//WhileLoop();
+
+int number = 10;
+do
 {
     Console.WriteLine(number);
     number--;
 }
-Console.WriteLine("Now number {0}",number);
+while (number >= 0);
 
 Console.ReadLine();
 
@@ -18,4 +20,15 @@ static void ForLoop()
         Console.WriteLine(i);
     }
     Console.WriteLine("Finished!");
+}
+
+static void WhileLoop()
+{
+    int number = 100;
+    while (number >= 0)
+    {
+        Console.WriteLine(number);
+        number--;
+    }
+    Console.WriteLine("Now number {0}", number);
 }
