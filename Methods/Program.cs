@@ -1,6 +1,6 @@
-﻿Add();
+﻿/*
 Add();
-
+Add();
 var result = Add2(20);
 int number0;
 int number1 = 20;
@@ -11,8 +11,12 @@ var result3 = Add4(out number1,number2); //out tip ile Add3 methodundaki number1
 Console.WriteLine(result3);
 Console.WriteLine(result2);
 Console.WriteLine(number1);
-Console.ReadLine();
 
+*/
+
+Console.WriteLine(Multiply(2,5));
+Console.WriteLine(Multiply2(2,5,10));
+Console.ReadLine();
 
 static void Add() 
 {
@@ -40,3 +44,12 @@ static int Add4(out int number1, int number2)
 
 }
 
+static int Multiply(int number1,int number2) 
+{
+    return number1 * number2;
+}
+
+static int Multiply2(int number1, int number2,int number3)
+{
+    return number1 * number2 * number3 ;
+}
