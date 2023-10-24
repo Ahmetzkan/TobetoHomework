@@ -14,8 +14,12 @@ Console.WriteLine(number1);
 
 */
 
+using System.Data;
+using System.Globalization;
+
 Console.WriteLine(Multiply(2,5));
 Console.WriteLine(Multiply2(2,5,10));
+Console.WriteLine(Add5(1,2,4,5,6,7,8,9));
 Console.ReadLine();
 
 static void Add() 
@@ -52,4 +56,9 @@ static int Multiply(int number1,int number2)
 static int Multiply2(int number1, int number2,int number3)
 {
     return number1 * number2 * number3 ;
+}
+
+static int Add5(int number,params int[] numbers)
+{
+    return numbers.Sum();
 }
