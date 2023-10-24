@@ -3,15 +3,32 @@
 //ForLoop();
 //WhileLoop();
 //DoWhileLoop()
+//ForEach();
 
-string[] students = new string[3] {"Engin","Ahmet","Derin"};
-
-foreach (var student in students)
+if (isPrimeNumber(6))
 {
-    Console.WriteLine(student);
+    Console.WriteLine("This is a prime number");
+}
+else
+{
+    Console.WriteLine( "This isn't a prime number" );
 }
 
 Console.ReadLine();
+
+ static bool isPrimeNumber(int number)
+{
+    bool result = true;
+    for (int i = 2; i < number - 1; i++)
+    {
+        if (number % i == 0)
+        {
+            result = false;
+            i = number;
+        }
+    }
+    return result;
+}
 
 static void ForLoop()
 {
@@ -43,3 +60,14 @@ static void DoWhileLoop()
     }
     while (number >= 0);
 }
+
+static void ForEach()
+{
+    string[] students = new string[3] { "Engin", "Ahmet", "Derin" };
+
+    foreach (var student in students)
+    {
+        Console.WriteLine(student);
+    }
+}
+
