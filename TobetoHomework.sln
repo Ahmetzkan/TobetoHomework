@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobetoHomework", "TobetoHomework\TobetoHomework.csproj", "{4729C006-207D-4DEB-981F-BAD6CD973472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TobetoHomework", "TobetoHomework\TobetoHomework.csproj", "{4729C006-207D-4DEB-981F-BAD6CD973472}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{7350A79F-CE60-436B-8320-F9261EA30BDC}"
 EndProject
@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo\RecapDemo1.csproj", "{6EBC260D-F9BA-46FB-820F-3A6EFEE0EBA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterFaces", "InterFaces\InterFaces.csproj", "{6D0BBA2D-16F4-4FE4-9444-36317767A34F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterFaces", "InterFaces\InterFaces.csproj", "{6D0BBA2D-16F4-4FE4-9444-36317767A34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterFacesDemo", "InterFacesDemo\InterFacesDemo.csproj", "{1FCDD9B2-5DCE-4D55-965A-A5C946FB0B6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{6D0BBA2D-16F4-4FE4-9444-36317767A34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D0BBA2D-16F4-4FE4-9444-36317767A34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D0BBA2D-16F4-4FE4-9444-36317767A34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCDD9B2-5DCE-4D55-965A-A5C946FB0B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCDD9B2-5DCE-4D55-965A-A5C946FB0B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCDD9B2-5DCE-4D55-965A-A5C946FB0B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCDD9B2-5DCE-4D55-965A-A5C946FB0B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
