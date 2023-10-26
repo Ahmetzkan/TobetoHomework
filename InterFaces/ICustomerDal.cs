@@ -50,6 +50,25 @@ namespace InterFaces
 
         }
     }
+    class MysqlServerCustomerDal : ICustomerDal
+    {
+        public void Add()
+        {
+            Console.WriteLine("Mysql Added!");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("Mysql Deleted!");
+
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("Mysql Updated!");
+
+        }
+    }
     class CustomerManager
     {
         public void Add(ICustomerDal customerdal)

@@ -4,8 +4,26 @@ using static IPerson;
 
 //InterfacesIntro();
 //IPerson person = new Customer();
-CustomerManager customerManager = new CustomerManager();
-customerManager.Add(new SqlServerCustomerDal());
+//Demo();
+
+ICustomerDal[] customerDals = new ICustomerDal[3]
+{
+    new SqlServerCustomerDal(),
+    new OracleServerCustomerDal(),
+    new MysqlServerCustomerDal()
+
+};
+
+foreach (var customerDal in customerDals)
+{
+    customerDal.Add();
+
+}
+static void Demo()
+{
+    CustomerManager customerManager = new CustomerManager();
+    customerManager.Add(new SqlServerCustomerDal());
+}
 static void InterfacesIntro()
 {
     PersonManager manager = new PersonManager();
@@ -74,7 +92,7 @@ interface IPerson
 
 class PersonManager
 {
-    public void Add(IPerson person) 
+    public void Add(IPerson person)
     {
         Console.WriteLine(person.FirstName);
         Console.WriteLine(person.LastName);
