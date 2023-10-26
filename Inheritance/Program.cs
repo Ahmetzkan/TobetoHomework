@@ -18,7 +18,7 @@ foreach (var person in persons)
 }
 //İnheritance'ın İnterfaceden farkı inheritance 2 defa miras alamaz ama interface alır.
 //İnterfaceler direkt interface ile tanımlanırken,inheritance direk "Customer:Person" gibi tanımlanır.
-
+ 
 class Person
 { 
     public int Id { get; set; }
