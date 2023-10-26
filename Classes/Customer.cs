@@ -8,8 +8,13 @@ namespace Classes
 {
     internal class Customer
     {
+
         public int Id { get; set; }
-        public string FirstName { get; set; }
+        private string _firstName;
+        public string FirstName {
+            get { return "Mrs. " + _firstName; } //FirstName önüne Mr. ekini getirir.
+            set { _firstName = value; } //encapsulation
+        }
         public string LastName { get; set; }
         public string City { get; set; }
     }
