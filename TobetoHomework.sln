@@ -5,17 +5,19 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobetoHomework", "TobetoHomework\TobetoHomework.csproj", "{4729C006-207D-4DEB-981F-BAD6CD973472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{7350A79F-CE60-436B-8320-F9261EA30BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{7350A79F-CE60-436B-8320-F9261EA30BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{04BCCA79-AFA0-4EE3-9692-F6A9504DE57B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{04BCCA79-AFA0-4EE3-9692-F6A9504DE57B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{649AE0C2-E94F-42E0-9286-56FD7908799F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{649AE0C2-E94F-42E0-9286-56FD7908799F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{6E9F421B-03BF-4392-ABE0-FD6743D4B62E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{6E9F421B-03BF-4392-ABE0-FD6743D4B62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{72617E89-2F7B-465A-B1C8-A1239D7A59DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{72617E89-2F7B-465A-B1C8-A1239D7A59DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{E7B971E0-04AC-49FD-8117-F04F71E40051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{E7B971E0-04AC-49FD-8117-F04F71E40051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo\RecapDemo1.csproj", "{6EBC260D-F9BA-46FB-820F-3A6EFEE0EBA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E7B971E0-04AC-49FD-8117-F04F71E40051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B971E0-04AC-49FD-8117-F04F71E40051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B971E0-04AC-49FD-8117-F04F71E40051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBC260D-F9BA-46FB-820F-3A6EFEE0EBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBC260D-F9BA-46FB-820F-3A6EFEE0EBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBC260D-F9BA-46FB-820F-3A6EFEE0EBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBC260D-F9BA-46FB-820F-3A6EFEE0EBA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
