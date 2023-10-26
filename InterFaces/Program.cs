@@ -1,32 +1,40 @@
-﻿using System.Net;
+﻿using InterFaces;
+using System.Net;
 using static IPerson;
 
-PersonManager manager = new PersonManager();
-Customer customer = new Customer 
+//InterfacesIntro();
+//IPerson person = new Customer();
+CustomerManager customerManager = new CustomerManager();
+customerManager.Add(new SqlServerCustomerDal());
+static void InterfacesIntro()
 {
-    Id=1,
-    FirstName="Ahmet",
-    LastName="Özkan",
-    Address="Ankara" 
-};
-Student student = new Student()
-{
-    Id = 2,
-    FirstName = "Derin",
-    LastName = "Demiroğ",
-    Departmant ="Computer Sciences"
-};
-Worker worker = new Worker()
-{
-    Id = 2,
-    FirstName = "Ali",
-    LastName = "Özkan",
-    Departmant ="Computer Sciences"
-};
+    PersonManager manager = new PersonManager();
+    Customer customer = new Customer
+    {
+        Id = 1,
+        FirstName = "Ahmet",
+        LastName = "Özkan",
+        Address = "Ankara"
+    };
+    Student student = new Student()
+    {
+        Id = 2,
+        FirstName = "Derin",
+        LastName = "Demiroğ",
+        Departmant = "Computer Sciences"
+    };
+    Worker worker = new Worker()
+    {
+        Id = 2,
+        FirstName = "Ali",
+        LastName = "Özkan",
+        Departmant = "Computer Sciences"
+    };
 
-manager.Add(customer);
-manager.Add(student);
-manager.Add(worker);
+    manager.Add(customer);
+    manager.Add(student);
+    manager.Add(worker);
+}
 
 interface IPerson
 {
